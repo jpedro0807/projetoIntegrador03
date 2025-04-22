@@ -7,11 +7,24 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/cinzaClaro"
     tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="511dp"
+        android:layout_height="314dp"
+        android:src="@drawable/component_1"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="-86dp" />
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="154dp" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="330dp"
         android:layout_height="43dp"
+        android:background="@drawable/edit_text_login"
         android:ems="10"
         android:inputType="text"
         android:text="Email"
@@ -22,6 +35,7 @@
         android:id="@+id/editTextText2"
         android:layout_width="330dp"
         android:layout_height="43dp"
+        android:background="@drawable/edit_text_login"
         android:ems="10"
         android:inputType="text"
         android:text="Senha"
@@ -30,7 +44,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLogin"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:backgroundTint="@color/azulBotao"
@@ -39,7 +53,7 @@
         tools:layout_editor_absoluteY="693dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCreateAccount"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:backgroundTint="@color/azulBotao"
