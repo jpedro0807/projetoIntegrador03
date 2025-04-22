@@ -7,12 +7,14 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/cinzaClaro"
     tools:context=".MainActivity">
+
     <ImageView
         android:layout_width="511dp"
         android:layout_height="314dp"
         android:src="@drawable/component_1"
         tools:layout_editor_absoluteX="-50dp"
         tools:layout_editor_absoluteY="-86dp" />
+
     <ImageView
         android:layout_width="254dp"
         android:layout_height="254dp"
@@ -42,6 +44,14 @@
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="536dp" />
 
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="15dp"
+        android:text="Esqueci minha senha"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="622dp" />
+
 
     <Button
         android:id="@+id/buttonLogin"
@@ -60,7 +70,6 @@
         android:text="CRIAR CONTA"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="757dp" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
