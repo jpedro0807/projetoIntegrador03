@@ -8,20 +8,29 @@
     android:backgroundTint="@color/cinzaClaro"
     tools:context=".MainActivity">
 
+    <!-- Imagem de fundo (posição negativa simulada com margem negativa) -->
     <ImageView
+        android:id="@+id/bgImage"
         android:layout_width="511dp"
         android:layout_height="314dp"
         android:src="@drawable/component_1"
-        tools:layout_editor_absoluteX="-50dp"
-        tools:layout_editor_absoluteY="-86dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="-86dp" />
 
+    <!-- Logo -->
     <ImageView
+        android:id="@+id/logoImage"
         android:layout_width="254dp"
         android:layout_height="254dp"
         android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="154dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="154dp" />
 
+    <!-- Campo de e-mail -->
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="330dp"
@@ -29,28 +38,37 @@
         android:background="@drawable/edit_text_login"
         android:ems="10"
         android:inputType="text"
-        android:text="Email"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="439dp" />
+        android:hint="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="439dp" />
 
+    <!-- Campo de senha -->
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="330dp"
         android:layout_height="43dp"
         android:background="@drawable/edit_text_login"
         android:ems="10"
-        android:inputType="text"
-        android:text="Senha"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="536dp" />
+        android:hint="Senha"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="536dp" />
 
+    <!-- Esqueci senha -->
     <TextView
-        android:layout_width="135dp"
-        android:layout_height="15dp"
+        android:id="@+id/textForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Esqueci minha senha"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="622dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="622dp" />
 
 
     <Button
@@ -59,8 +77,11 @@
         android:layout_height="40dp"
         android:backgroundTint="@color/azulBotao"
         android:text="ENTRAR"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="693dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="693dp" />
+
 
     <Button
         android:id="@+id/buttonCreateAccount"
@@ -68,8 +89,9 @@
         android:layout_height="40dp"
         android:backgroundTint="@color/azulBotao"
         android:text="CRIAR CONTA"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="757dp" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="757dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
