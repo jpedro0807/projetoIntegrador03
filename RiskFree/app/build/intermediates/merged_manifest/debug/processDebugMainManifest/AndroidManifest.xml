@@ -36,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.riskfree.HomeActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
