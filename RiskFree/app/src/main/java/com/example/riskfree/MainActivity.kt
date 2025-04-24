@@ -10,6 +10,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,27 +32,42 @@ class MainActivity : AppCompatActivity() {
         val forgotPasswordText = findViewById<TextView>(R.id.textForgotPassword)
 
         loginButton.setOnClickListener {
-            val email = emailEditText.text.toString()
-            val senha = senhaEditText.text.toString()
+            val email = emailEditText.text.toString().trim()
+            val senha = senhaEditText.text.toString().trim()
 
             if (email.isEmpty() || senha.isEmpty()) {
                 Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show()
-            } else if (email == "admin@email.com" && senha == "admin123") {
-                Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-                finish()
             } else {
-                Toast.makeText(this, "Email ou senha incorretos!", Toast.LENGTH_SHORT).show()
+                val db = Firebase.firestore
+
+                db.collection("usuarios")
+                    .whereEqualTo("email", email)
+                    .get()
+                    .addOnSuccessListener { result ->
+                        if (result.isEmpty) {
+                            Toast.makeText(this, "Email não encontrado!", Toast.LENGTH_SHORT).show()
+                        } else {
+                            val userDoc = result.documents.first()
+                            val senhaSalva = userDoc.getString("senha")
+
+                            if (senha == senhaSalva) {
+                                Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
+                                val intent = Intent(this, HomeActivity::class.java)
+                                startActivity(intent)
+                                finish()
+                            } else {
+                                Toast.makeText(this, "Senha incorreta!", Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    }
+                    .addOnFailureListener { e ->
+                        e.printStackTrace()
+                        Toast.makeText(this, "Erro ao acessar o banco: ${e.message}", Toast.LENGTH_LONG).show()
+                    }
+
             }
         }
 
-        createAccountButton.setOnClickListener {
-            Toast.makeText(this, "Criar nova conta...", Toast.LENGTH_SHORT).show()
-        }
 
-        forgotPasswordText.setOnClickListener {
-            Toast.makeText(this, "Recuperar senha...", Toast.LENGTH_SHORT).show()
-        }
     }
 }
