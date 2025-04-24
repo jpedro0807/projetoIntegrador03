@@ -4,5 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="cinzaClaro">#EAE9EC</color>
     <color name="azulBotao">#5271FF</color>
+    <color name="riskFreeBlue">#0122B9</color>
+    <color name="bgGray">#D9D9D9</color>
 
 </resources>

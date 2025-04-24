@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/layout_activity_home.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.riskfree.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.riskfree.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/drawable_component_1.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/drawable/component_1.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/drawable_logo.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/drawable/logo.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/drawable_edit_text_login.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/drawable/edit_text_login.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azulBotao">#5271FF</color>
+    <color name="black">#FF000000</color>
+    <color name="cinzaClaro">#EAE9EC</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">RiskFree</string>
+    <style name="Base.Theme.RiskFree" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.RiskFree" parent="Base.Theme.RiskFree"/>
+</resources>
