@@ -1,4 +1,4 @@
-#Thu Apr 24 19:30:26 BRT 2025
+#Thu Apr 24 19:50:41 BRT 2025
 base.0=C\:\\workspace\\github\\projeto-integrador3\\projetoIntegrador03\\RiskFree\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\workspace\\github\\projeto-integrador3\\projetoIntegrador03\\RiskFree\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\workspace\\github\\projeto-integrador3\\projetoIntegrador03\\RiskFree\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
