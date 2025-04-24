@@ -1354,6 +1354,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgGray
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -2054,6 +2055,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color riskFreeBlue
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2951,6 +2953,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable circle_background
 drawable component_1
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2958,6 +2961,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edit_text_login
+drawable generic_avatar
+drawable gray_rectangule
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3054,6 +3059,9 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font league_spartan
+font roboto_mono
+font roboto_slab
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3520,6 +3528,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleText
 id title_template
 id toggle
 id top
@@ -3538,6 +3547,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userIcon
+id userName
 id vertical_only
 id view_offset_helper
 id view_transition
