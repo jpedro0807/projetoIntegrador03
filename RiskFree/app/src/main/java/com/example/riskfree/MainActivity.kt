@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
         val emailEditText = findViewById<EditText>(R.id.editTextText)
         val senhaEditText = findViewById<EditText>(R.id.editTextText2)
         val loginButton = findViewById<Button>(R.id.buttonLogin)
-        val createAccountButton = findViewById<Button>(R.id.buttonCreateAccount)
-        val forgotPasswordText = findViewById<TextView>(R.id.textForgotPassword)
+        //val createAccountButton = findViewById<Button>(R.id.buttonCreateAccount)
+        //val forgotPasswordText = findViewById<TextView>(R.id.textForgotPassword)
 
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString().trim()
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 val db = Firebase.firestore
 
-                db.collection("usuarios")
+                db.collection("usuario")
                     .whereEqualTo("email", email)
                     .get()
                     .addOnSuccessListener { result ->

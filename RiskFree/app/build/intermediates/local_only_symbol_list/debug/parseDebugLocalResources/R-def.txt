@@ -6,11 +6,13 @@ color black
 color cinzaClaro
 color riskFreeBlue
 color white
+drawable blue_rectangule16dp
 drawable circle_background
 drawable component_1
 drawable edit_text_login
 drawable generic_avatar
 drawable gray_rectangule
+drawable gray_rectangule16dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
@@ -18,13 +20,11 @@ font league_spartan
 font roboto_mono
 font roboto_slab
 id bgImage
-id buttonCreateAccount
 id buttonLogin
 id editTextText
 id editTextText2
 id logoImage
 id main
-id textForgotPassword
 id titleText
 id userIcon
 id userName

@@ -51,7 +51,7 @@
             app:layout_constraintTop_toTopOf="@id/userIcon"
             app:layout_constraintBottom_toBottomOf="@id/userIcon" />
     </FrameLayout>
-
+<!--
     <FrameLayout
         android:layout_width="349dp"
         android:layout_height="63dp"
@@ -82,5 +82,56 @@
 
 
     </FrameLayout>
+    -->
+    <FrameLayout
+        android:layout_width="349dp"
+        android:layout_height="300dp"
+        android:background="@drawable/gray_rectangule16dp"
+        android:layout_marginTop="483dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_rectangule16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reportar Ameaca"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto_mono"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="285dp"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_rectangule16dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ameacas Reportadas"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto_mono"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+        </FrameLayout>
+
+
+    </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
