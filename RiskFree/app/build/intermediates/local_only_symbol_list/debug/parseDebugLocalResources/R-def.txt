@@ -20,9 +20,10 @@ font league_spartan
 font roboto_mono
 font roboto_slab
 id bgImage
+id buttonCreateAccount
 id buttonLogin
-id editTextText
-id editTextText2
+id editEmail
+id editPassword
 id logoImage
 id main
 id titleText

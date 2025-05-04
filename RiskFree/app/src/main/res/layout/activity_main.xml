@@ -32,7 +32,7 @@
 
     <!-- Campo de e-mail -->
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editEmail"
         android:layout_width="330dp"
         android:layout_height="43dp"
         android:layout_marginTop="439dp"
@@ -45,12 +45,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Campo de senha -->
-
-    <!-- Esqueci senha -->
-
-
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editPassword"
         android:layout_width="330dp"
         android:layout_height="43dp"
         android:layout_marginTop="508dp"
@@ -84,7 +80,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-<!--
+
     <Button
         android:id="@+id/buttonCreateAccount"
         android:layout_width="180dp"
@@ -96,5 +92,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
--->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

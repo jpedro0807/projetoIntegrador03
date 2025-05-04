@@ -4,6 +4,6 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="300"
-        android:font="@font/league_spartan" />
+        android:font="@font/league_spartan_medium" />
 
 </font-family>

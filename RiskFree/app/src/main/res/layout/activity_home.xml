@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="271dp"
-        android:layout_marginTop="27dp"/>
+        android:layout_marginTop="15dp"/>
 
     <FrameLayout
         android:layout_width="177dp"
@@ -43,6 +43,7 @@
             android:layout_width="97dp"
             android:layout_height="28dp"
             android:text="@Usuário"
+            android:fontFamily="@font/roboto_mono_medium"
             android:textColor="#000000"
             android:textSize="18sp"
             android:layout_marginStart="50dp"
@@ -91,7 +92,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <FrameLayout
+
+        <LinearLayout
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
@@ -99,18 +101,22 @@
             android:layout_marginStart="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_vertical|center_horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Reportar Ameaca"
                 android:textColor="@color/white"
                 android:textSize="20dp"
-                android:fontFamily="@font/roboto_mono"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"/>
-        </FrameLayout>
-        <FrameLayout
+                android:fontFamily="@font/roboto_mono" />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/alert_square_svgrepo_com"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
@@ -128,7 +134,7 @@
                 android:fontFamily="@font/roboto_mono"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"/>
-        </FrameLayout>
+        </LinearLayout>
 
 
     </FrameLayout>
