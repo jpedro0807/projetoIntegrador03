@@ -2966,6 +2966,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alert_square_svgrepo_com
 drawable avd_hide_password
 drawable avd_show_password
 drawable blue_rectangule16dp
@@ -3109,8 +3110,11 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font league_spartan
+font league_spartan_medium
 font roboto_mono
+font roboto_mono_medium
 font roboto_slab
+font roboto_slab_medium
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3217,6 +3221,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnReportarAmeaca
 id buttonCreateAccount
 id buttonLogin
 id buttonPanel

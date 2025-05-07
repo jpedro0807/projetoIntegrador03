@@ -52,38 +52,7 @@
             app:layout_constraintTop_toTopOf="@id/userIcon"
             app:layout_constraintBottom_toBottomOf="@id/userIcon" />
     </FrameLayout>
-<!--
-    <FrameLayout
-        android:layout_width="349dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="96dp"
-        android:background="@drawable/gray_rectangule"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="263dp"
-            android:layout_height="27dp"
-            android:layout_marginStart="107dp"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/roboto_slab"
-            android:text="AMEACAS ECONTRADAS"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/roboto_mono"
-            android:text="10"
-            android:textColor="@color/riskFreeBlue"
-            android:textSize="36dp" />
-
-
-    </FrameLayout>
-    -->
     <FrameLayout
         android:layout_width="349dp"
         android:layout_height="300dp"
@@ -93,51 +62,71 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <Button
+            android:id="@+id/btnReportarAmeaca"
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
+            android:backgroundTint="@color/riskFreeBlue"
+
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginTop="50dp"
-            android:layout_marginStart="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:gravity="center_vertical|center_horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reportar Ameaca"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:fontFamily="@font/roboto_mono" />
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/alert_square_svgrepo_com"
-                android:scaleType="centerInside"/>
-        </LinearLayout>
-        <LinearLayout
+
+
+            android:padding="8dp"
+
+            android:drawableEnd="@drawable/alert_square_svgrepo_com"
+            android:drawablePadding="8dp"
+
+            android:gravity="start|center_vertical"
+
+
+            android:text="Reportar Ameaças"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_mono"/>
+
+        <Button
+            android:id="@+id/btnAmeacasReportadas"
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
-            android:layout_marginTop="170dp"
+            android:backgroundTint="@color/riskFreeBlue"
+
             android:layout_marginStart="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="170dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ameacas Reportadas"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:fontFamily="@font/roboto_mono"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            android:padding="8dp"
+
+            android:drawableEnd="@drawable/report_ic"
+            android:drawablePadding="8dp"
+
+            android:gravity="start|center_vertical"
+
+
+            android:text="Ameaças Reportadas"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_mono"/>
+
+
         </LinearLayout>
 
 
     </FrameLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

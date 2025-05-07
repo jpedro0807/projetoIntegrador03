@@ -3,7 +3,7 @@
 
     <font
         android:fontStyle="normal"
-        android:fontWeight="300"
-        android:font="@font/roboto_mono" />
+        android:fontWeight="500"
+        android:font="@font/roboto_mono_medium" />
 
 </font-family>

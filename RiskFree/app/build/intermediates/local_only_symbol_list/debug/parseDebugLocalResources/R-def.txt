@@ -6,6 +6,7 @@ color black
 color cinzaClaro
 color riskFreeBlue
 color white
+drawable alert_square_svgrepo_com
 drawable blue_rectangule16dp
 drawable circle_background
 drawable component_1
@@ -17,9 +18,13 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
 font league_spartan
+font league_spartan_medium
 font roboto_mono
+font roboto_mono_medium
 font roboto_slab
+font roboto_slab_medium
 id bgImage
+id btnReportarAmeaca
 id buttonCreateAccount
 id buttonLogin
 id editEmail

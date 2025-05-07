@@ -2965,6 +2965,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070076
 int drawable abc_textfield_search_material 0x7f070077
 int drawable abc_vector_test 0x7f070078
+int drawable alert_square_svgrepo_com 0x7f070107
 int drawable avd_hide_password 0x7f070079
 int drawable avd_show_password 0x7f07007a
 int drawable blue_rectangule16dp 0x7f07007b
@@ -3108,8 +3109,11 @@ int drawable test_level_drawable 0x7f070104
 int drawable tooltip_frame_dark 0x7f070105
 int drawable tooltip_frame_light 0x7f070106
 int font league_spartan 0x7f080000
+int font league_spartan_medium 0x7f080003
 int font roboto_mono 0x7f080001
+int font roboto_mono_medium 0x7f080004
 int font roboto_slab 0x7f080002
+int font roboto_slab_medium 0x7f080005
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -3216,6 +3220,7 @@ int id browser_actions_menu_item_icon 0x7f090066
 int id browser_actions_menu_item_text 0x7f090067
 int id browser_actions_menu_items 0x7f090068
 int id browser_actions_menu_view 0x7f090069
+int id btnReportarAmeaca 0x7f090205
 int id buttonCreateAccount 0x7f090204
 int id buttonLogin 0x7f09006a
 int id buttonPanel 0x7f09006b

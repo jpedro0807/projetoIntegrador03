@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="271dp"
-        android:layout_marginTop="27dp"/>
+        android:layout_marginTop="15dp"/>
 
     <FrameLayout
         android:layout_width="177dp"
@@ -43,6 +43,7 @@
             android:layout_width="97dp"
             android:layout_height="28dp"
             android:text="@Usuário"
+            android:fontFamily="@font/roboto_mono_medium"
             android:textColor="#000000"
             android:textSize="18sp"
             android:layout_marginStart="50dp"
@@ -91,26 +92,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <FrameLayout
+
+        <Button
+            android:id="@+id/btnReportarAmeaca"
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
-            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/riskFreeBlue"
+
             android:layout_marginStart="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="50dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reportar Ameaca"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:fontFamily="@font/roboto_mono"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"/>
-        </FrameLayout>
-        <FrameLayout
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            android:padding="8dp"
+
+            android:drawableEnd="@drawable/alert_square_svgrepo_com"
+            android:drawablePadding="8dp"
+
+            android:gravity="start|center_vertical"
+
+
+            android:text="Reportar Ameaças"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_mono"/>
+
+
+
+        <LinearLayout
             android:layout_width="285dp"
             android:layout_height="80dp"
             android:background="@drawable/blue_rectangule16dp"
@@ -128,7 +142,7 @@
                 android:fontFamily="@font/roboto_mono"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"/>
-        </FrameLayout>
+        </LinearLayout>
 
 
     </FrameLayout>

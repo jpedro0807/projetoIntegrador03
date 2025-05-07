@@ -45,10 +45,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Campo de senha -->
-
-    <!-- Esqueci senha -->
-
-
     <EditText
         android:id="@+id/editPassword"
         android:layout_width="330dp"
