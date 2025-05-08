@@ -40,6 +40,10 @@
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/drawable/edit_text_login.xml"
     },
     {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/drawable_alert_square_svgrepo_com.xml.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/drawable/alert_square_svgrepo_com.xml"
+    },
+    {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/drawable_blue_rectangule16dp.xml.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/drawable/blue_rectangule16dp.xml"
     },
@@ -48,20 +52,16 @@
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.riskfree.app-debug-40:/layout_activity_main.xml.flat",
-        "source": "com.example.riskfree.app-main-42:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.riskfree.app-debug-40:/font_roboto_slab_medium.ttf.flat",
-        "source": "com.example.riskfree.app-main-42:/font/roboto_slab_medium.ttf"
-    },
-    {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/font_roboto_slab.xml.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/font/roboto_slab.xml"
+    },
+    {
+        "merged": "com.example.riskfree.app-debug-40:/drawable_ic_location_on.xml.flat",
+        "source": "com.example.riskfree.app-main-42:/drawable/ic_location_on.xml"
     },
     {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/drawable_ic_launcher_background.xml.flat",
@@ -84,14 +84,6 @@
         "source": "com.example.riskfree.app-main-42:/drawable/alert_square_svgrepo_com.xml"
     },
     {
-        "merged": "com.example.riskfree.app-debug-40:/font_roboto_slab.xml.flat",
-        "source": "com.example.riskfree.app-main-42:/font/roboto_slab.xml"
-    },
-    {
-        "merged": "com.example.riskfree.app-debug-40:/font_league_spartan.xml.flat",
-        "source": "com.example.riskfree.app-main-42:/font/league_spartan.xml"
-    },
-    {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/font_roboto_mono.xml.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/font/roboto_mono.xml"
     },
@@ -108,20 +100,40 @@
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.riskfree.app-debug-40:/drawable_add_ameaca.xml.flat",
+        "source": "com.example.riskfree.app-main-42:/drawable/add_ameaca.xml"
+    },
+    {
+        "merged": "com.example.riskfree.app-debug-40:/drawable_ic_home.xml.flat",
+        "source": "com.example.riskfree.app-main-42:/drawable/ic_home.xml"
+    },
+    {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.riskfree.app-debug-40:/font_roboto_mono.xml.flat",
-        "source": "com.example.riskfree.app-main-42:/font/roboto_mono.xml"
+        "merged": "com.example.riskfree.app-debug-40:/layout_activity_report_ameaca.xml.flat",
+        "source": "com.example.riskfree.app-main-42:/layout/activity_report_ameaca.xml"
     },
     {
-        "merged": "com.example.riskfree.app-debug-40:/font_league_spartan_medium.ttf.flat",
-        "source": "com.example.riskfree.app-main-42:/font/league_spartan_medium.ttf"
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/font_roboto_mono_medium.ttf.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/font/roboto_mono_medium.ttf"
+    },
+    {
+        "merged": "com.example.riskfree.app-debug-40:/drawable_report_ic.xml.flat",
+        "source": "com.example.riskfree.app-main-42:/drawable/report_ic.xml"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/font_roboto_slab_medium.ttf.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/font/roboto_slab_medium.ttf"
     },
     {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/font_league_spartan_medium.ttf.flat",
+        "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/font/league_spartan_medium.ttf"
     },
     {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/xml_backup_rules.xml.flat",
@@ -134,10 +146,6 @@
     {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.riskfree.app-debug-40:/font_roboto_mono_medium.ttf.flat",
-        "source": "com.example.riskfree.app-main-42:/font/roboto_mono_medium.ttf"
     },
     {
         "merged": "/Users/joaopedrobarbosadasilva/.gradle/daemon/8.11.1/com.example.riskfree.app-debug-40:/xml_data_extraction_rules.xml.flat",

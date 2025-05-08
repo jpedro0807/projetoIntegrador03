@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/cinzaClaro">
@@ -11,15 +11,15 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="risk.free"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/league_spartan"
+        android:text="risk.free"
         android:textColor="@color/riskFreeBlue"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="271dp"
-        android:layout_marginTop="15dp"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
         android:layout_width="177dp"
@@ -35,60 +35,30 @@
             android:id="@+id/userIcon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/generic_avatar"
+            android:background="@drawable/circle_background"
             android:scaleType="centerInside"
-            android:background="@drawable/circle_background" />
+            android:src="@drawable/generic_avatar" />
+
         <TextView
             android:id="@+id/userName"
             android:layout_width="97dp"
             android:layout_height="28dp"
-            android:text="@Usuário"
-            android:fontFamily="@font/roboto_mono_medium"
-            android:textColor="#000000"
-            android:textSize="18sp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:text="@Usuário"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/userIcon"
             app:layout_constraintStart_toEndOf="@id/userIcon"
-            app:layout_constraintTop_toTopOf="@id/userIcon"
-            app:layout_constraintBottom_toBottomOf="@id/userIcon" />
+            app:layout_constraintTop_toTopOf="@id/userIcon" />
     </FrameLayout>
-<!--
-    <FrameLayout
-        android:layout_width="349dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="96dp"
-        android:background="@drawable/gray_rectangule"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="263dp"
-            android:layout_height="27dp"
-            android:layout_marginStart="107dp"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/roboto_slab"
-            android:text="AMEACAS ECONTRADAS"
-            android:textSize="20dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/roboto_mono"
-            android:text="10"
-            android:textColor="@color/riskFreeBlue"
-            android:textSize="36dp" />
-
-
-    </FrameLayout>
-    -->
     <FrameLayout
         android:layout_width="349dp"
         android:layout_height="300dp"
+        android:layout_marginTop="440dp"
         android:background="@drawable/gray_rectangule16dp"
-        android:layout_marginTop="483dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -97,52 +67,98 @@
             android:id="@+id/btnReportarAmeaca"
             android:layout_width="285dp"
             android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+
+            android:layout_marginEnd="16dp"
             android:background="@drawable/blue_rectangule16dp"
             android:backgroundTint="@color/riskFreeBlue"
-
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="50dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-
-            android:padding="8dp"
-
             android:drawableEnd="@drawable/alert_square_svgrepo_com"
             android:drawablePadding="8dp"
+            android:fontFamily="@font/roboto_mono"
+
 
             android:gravity="start|center_vertical"
 
-
+            android:padding="8dp"
             android:text="Reportar Ameaças"
+
             android:textAllCaps="false"
-            android:textSize="20sp"
+
+
             android:textColor="@color/white"
-            android:fontFamily="@font/roboto_mono"/>
-
-
-
-        <LinearLayout
-            android:layout_width="285dp"
-            android:layout_height="80dp"
-            android:background="@drawable/blue_rectangule16dp"
-            android:layout_marginTop="170dp"
-            android:layout_marginStart="32dp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ameacas Reportadas"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:fontFamily="@font/roboto_mono"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"/>
-        </LinearLayout>
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnAmeacasReportadas"
+            android:layout_width="285dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="170dp"
+
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/blue_rectangule16dp"
+            android:backgroundTint="@color/riskFreeBlue"
+            android:drawableEnd="@drawable/report_ic"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/roboto_mono"
+
+
+            android:gravity="start|center_vertical"
+
+            android:padding="8dp"
+            android:text="Ameaças Reportadas"
+
+            android:textAllCaps="false"
+
+
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="272dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="810dp"
+        android:background="@drawable/gray_rectangule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_home"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_home"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnAddAmeaca"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add_ameaca"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="5dp"
+            />
 
 
     </FrameLayout>

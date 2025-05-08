@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- AppBar -->
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="wra"
+        android:layout_height="56dp"
+        android:background="@drawable/gray_rectangule"
+        android:title="Reporte uma ameaça"
+        android:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reporte uma Ameaça"
+            android:fontFamily="@font/roboto_mono"/>
+
+    </FrameLayout>
+
+    <!-- Placeholder de Imagem -->
+    <FrameLayout
+        android:id="@+id/card_image"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#EEEEEE"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/gray_rectangule">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_camera"
+                android:layout_gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Insira uma imagem"
+                android:textColor="#888888"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_mono"
+                android:layout_gravity="center_horizontal|bottom"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- Formulário -->
+    <!-- Formulário usando FrameLayout com atributos nativos -->
+    <FrameLayout
+        android:id="@+id/card_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/gray_rectangule16dp"
+        android:elevation="4dp"
+        android:clipToOutline="true"
+        app:layout_constraintTop_toBottomOf="@id/card_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Data -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Data"
+                android:backgroundTint="@color/white"
+                android:inputType="date"
+                android:background="@drawable/edit_text_forms"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <!-- Nível da Ameaça -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nível da Ameaça"
+                android:backgroundTint="@color/white"
+                android:inputType="text"
+                android:background="@drawable/edit_text_login"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:hint="Localização"
+                android:paddingEnd="40dp"
+                android:background="@drawable/edit_text_login"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_mono"/>
+
+            <!-- Descrição -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Descreva a ameaça"
+                android:inputType="textMultiLine"
+                android:backgroundTint="@color/white"
+                android:gravity="top"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_login"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_mono"/>
+        </LinearLayout>
+    </FrameLayout>
+    <!-- Guideline horizontal a 800dp do topo -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_800dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="700dp"/>
+
+
+    <Button
+        android:id="@+id/btnEnviarAmeaca"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/riskFreeBlue"
+        android:text="Enviar Ameaça"
+        app:layout_constraintTop_toTopOf="@id/guideline_800dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+
+    <FrameLayout
+        android:layout_width="272dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="810dp"
+        android:background="@drawable/gray_rectangule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_home"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_home"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnAddAmeaca"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add_ameaca"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

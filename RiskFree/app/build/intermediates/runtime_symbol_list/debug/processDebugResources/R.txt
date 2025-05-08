@@ -2965,6 +2965,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070076
 int drawable abc_textfield_search_material 0x7f070077
 int drawable abc_vector_test 0x7f070078
+int drawable add_ameaca 0x7f070108
 int drawable alert_square_svgrepo_com 0x7f070107
 int drawable avd_hide_password 0x7f070079
 int drawable avd_show_password 0x7f07007a
@@ -3018,9 +3019,11 @@ int drawable ic_call_decline 0x7f0700a9
 int drawable ic_call_decline_low 0x7f0700aa
 int drawable ic_clear_black_24 0x7f0700ab
 int drawable ic_clock_black_24dp 0x7f0700ac
+int drawable ic_home 0x7f070109
 int drawable ic_keyboard_black_24dp 0x7f0700ad
 int drawable ic_launcher_background 0x7f0700ae
 int drawable ic_launcher_foreground 0x7f0700af
+int drawable ic_location_on 0x7f07010a
 int drawable ic_m3_chip_check 0x7f0700b0
 int drawable ic_m3_chip_checked_circle 0x7f0700b1
 int drawable ic_m3_chip_close 0x7f0700b2
@@ -3105,6 +3108,7 @@ int drawable notification_template_icon_bg 0x7f070100
 int drawable notification_template_icon_low_bg 0x7f070101
 int drawable notification_tile_bg 0x7f070102
 int drawable notify_panel_notification_icon_bg 0x7f070103
+int drawable report_ic 0x7f07010b
 int drawable test_level_drawable 0x7f070104
 int drawable tooltip_frame_dark 0x7f070105
 int drawable tooltip_frame_light 0x7f070106
@@ -3220,13 +3224,19 @@ int id browser_actions_menu_item_icon 0x7f090066
 int id browser_actions_menu_item_text 0x7f090067
 int id browser_actions_menu_items 0x7f090068
 int id browser_actions_menu_view 0x7f090069
+int id btnAddAmeaca 0x7f090206
+int id btnAmeacasReportadas 0x7f090207
+int id btnHome 0x7f090208
 int id btnReportarAmeaca 0x7f090205
+int id btnSave 0x7f090209
 int id buttonCreateAccount 0x7f090204
 int id buttonLogin 0x7f09006a
 int id buttonPanel 0x7f09006b
 int id cache_measures 0x7f09006c
 int id callMeasure 0x7f09006d
 int id cancel_button 0x7f09006e
+int id card_form 0x7f09020a
+int id card_image 0x7f09020b
 int id carryVelocity 0x7f09006f
 int id center 0x7f090070
 int id centerCrop 0x7f090071
@@ -3593,6 +3603,7 @@ int id titleDividerNoCustom 0x7f0901d9
 int id titleText 0x7f0901da
 int id title_template 0x7f0901db
 int id toggle 0x7f0901dc
+int id toolbar 0x7f09020c
 int id top 0x7f0901dd
 int id topPanel 0x7f0901de
 int id touch_outside 0x7f0901df
@@ -3747,6 +3758,7 @@ int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_home 0x7f0c001c
 int layout activity_main 0x7f0c001d
+int layout activity_report_ameaca 0x7f0c006d
 int layout browser_actions_context_menu_page 0x7f0c001e
 int layout browser_actions_context_menu_row 0x7f0c001f
 int layout custom_dialog 0x7f0c0020
