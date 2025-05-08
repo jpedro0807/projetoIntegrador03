@@ -80,4 +80,3 @@ class MainActivity : AppCompatActivity() {
         // Redirecionar para tela de login
     }
 }
-*/

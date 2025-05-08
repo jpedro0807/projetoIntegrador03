@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.google.android.material:material:1.10.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/595a623d1141c1e460086b8b373b38fd/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/95417adf55fd7413a18ec60e899d0778/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/cc840f4f7d3eba132178ac6d44a5e1a7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -11,8 +11,13 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/joaopedrobarbosadasilva/
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/5924a1ed64904e2e7561dc17e18dd209/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/f3cefae3c4687f83537bffe8cc12c9d2/transformed/firebase-auth-ktx-23.2.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/8e9f1d289373b662a99d3759f0815994/transformed/play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/aa62ec54ffb284f1bef6f72d1dfbeb88/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/4a522494026c24fb65189bb2f3939205/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/f3519754e0416019d4b5ddb507ee08b8/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
@@ -22,8 +27,8 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/joaopedrob
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/4f7475b682cfa7a9d076a779dd1e3507/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6f7213af5d5cec6c0437c0cf41e4b1a5/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/950605ef31d4a726d3d82b927c3a9096/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/fcc880564718aaf97b29f3cebdb4a5a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d8333110731467050c4b764437dab1a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/1b29cc208abbc88ca2e87d7d592ac00c/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b48cfc73e9fa11ee3f77dc1943a87042/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d1c2bb74515d85fb98dcb35d084f254/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
@@ -54,8 +59,8 @@ MERGED from [androidx.customview:customview:1.1.0] /Users/joaopedrobarbosadasilv
 MERGED from [androidx.browser:browser:1.4.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/eba3e308457f12565175b7fab2a3bc09/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acd6b10e6c415ac1e3fc1f8cb43a556b/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/63ab7660065422366bccb15369941046/transformed/core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/30fb489658a110aae74e46553a5e3439/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/55e83abc637a1772465ad219368f5cce/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d5a01b26c28bcc4611599eb62015d285/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/709b50940664bf11f5a403d9d09a81ca/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
@@ -82,8 +87,8 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/joaopedrobarbosad
 	xmlns:android
 		ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:5:5-25:19
-INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:5:5-25:19
+ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:5:5-30:19
+INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/595a623d1141c1e460086b8b373b38fd/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/595a623d1141c1e460086b8b373b38fd/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/95417adf55fd7413a18ec60e899d0778/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -92,10 +97,20 @@ MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] /Users/joaopedrobarbo
 MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/f3cefae3c4687f83537bffe8cc12c9d2/transformed/firebase-auth-ktx-23.2.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/8e9f1d289373b662a99d3759f0815994/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/8e9f1d289373b662a99d3759f0815994/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/aa62ec54ffb284f1bef6f72d1dfbeb88/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/aa62ec54ffb284f1bef6f72d1dfbeb88/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/4a522494026c24fb65189bb2f3939205/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
@@ -108,8 +123,8 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/joaopedrob
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/44eaea6d10f9081d6bb8a59d8aa6c3d0/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6f7213af5d5cec6c0437c0cf41e4b1a5/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6f7213af5d5cec6c0437c0cf41e4b1a5/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/950605ef31d4a726d3d82b927c3a9096/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/950605ef31d4a726d3d82b927c3a9096/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d8333110731467050c4b764437dab1a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d8333110731467050c4b764437dab1a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/1b29cc208abbc88ca2e87d7d592ac00c/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/1b29cc208abbc88ca2e87d7d592ac00c/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d1c2bb74515d85fb98dcb35d084f254/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
@@ -174,6 +189,18 @@ activity#com.example.riskfree.HomeActivity
 ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:24:9-50
 	android:name
 		ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:24:19-47
+activity#com.example.riskfree.ReportActivity
+ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:25:19-49
+activity#com.example.riskfree.AmeacasReportadasActivity
+ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:26:9-63
+	android:name
+		ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:26:19-60
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml:31:22-76
 uses-sdk
 INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/joaopedrobarbosadasilva/StudioProjects/projetoIntegrador03/RiskFree/app/src/main/AndroidManifest.xml
@@ -192,10 +219,20 @@ MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] /Users/joaopedrobarbo
 MERGED from [com.google.firebase:firebase-auth-ktx:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/f3cefae3c4687f83537bffe8cc12c9d2/transformed/firebase-auth-ktx-23.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/8e9f1d289373b662a99d3759f0815994/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/8e9f1d289373b662a99d3759f0815994/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/aa62ec54ffb284f1bef6f72d1dfbeb88/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/aa62ec54ffb284f1bef6f72d1dfbeb88/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/4a522494026c24fb65189bb2f3939205/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
@@ -214,10 +251,10 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarb
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6f7213af5d5cec6c0437c0cf41e4b1a5/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6f7213af5d5cec6c0437c0cf41e4b1a5/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/950605ef31d4a726d3d82b927c3a9096/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/950605ef31d4a726d3d82b927c3a9096/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/fcc880564718aaf97b29f3cebdb4a5a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/fcc880564718aaf97b29f3cebdb4a5a7/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d8333110731467050c4b764437dab1a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/2d8333110731467050c4b764437dab1a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/1b29cc208abbc88ca2e87d7d592ac00c/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/1b29cc208abbc88ca2e87d7d592ac00c/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b48cfc73e9fa11ee3f77dc1943a87042/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
@@ -278,10 +315,10 @@ MERGED from [androidx.core:core:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/c
 MERGED from [androidx.core:core:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acd6b10e6c415ac1e3fc1f8cb43a556b/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/63ab7660065422366bccb15369941046/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.10.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/63ab7660065422366bccb15369941046/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/30fb489658a110aae74e46553a5e3439/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/30fb489658a110aae74e46553a5e3439/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d20fc6aef43fe92c038416cb799125cf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/55e83abc637a1772465ad219368f5cce/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/55e83abc637a1772465ad219368f5cce/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/d5a01b26c28bcc4611599eb62015d285/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -324,8 +361,14 @@ MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosada
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/f3519754e0416019d4b5ddb507ee08b8/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
@@ -348,6 +391,8 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
 	android:name
@@ -356,6 +401,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/9b0564a0c8b56370a34b6a765a3b5d51/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/6e9095aeb3687fe1bc4e6974c6e90647/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/ed3dd473126fb1305a14c2a31fa634be/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
@@ -422,6 +469,12 @@ ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrob
 		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/b4451cada5acaf64ff1dff62eb133410/transformed/firebase-firestore-ktx-25.1.3/AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/acfa6b3b97fb37ea2dc375047ac0324b/transformed/firebase-storage-ktx-21.0.1/AndroidManifest.xml:13:17-125
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
 ADDED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:17:13-19:85
 	android:value
@@ -434,6 +487,30 @@ ADDED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbo
 		ADDED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:25.1.3] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/7edb7f13da1abed1d969a5dcbcae09e9/transformed/firebase-firestore-25.1.3/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/a55c2f3091842df6d3f36342d658a0bd/transformed/firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/11528abfd1dd4d666d881a4c4a190886/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/joaopedrobarbosadasilva/.gradle/caches/8.11.1/transforms/e58da348c6ff8edd4977b64f4aef81a0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
 	android:value
