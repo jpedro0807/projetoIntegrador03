@@ -21,14 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".ReportActivity" />
-        <activity android:name=".AmeacasReportadasActivity" />
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".ReportActivity"/>
+        <activity android:name=".AmeacasReportadasActivity"/>
+        <meta-data
+            android:name="firebase_storage_bucket"
+            android:value="riskfree-59df0.firebasestorage.app"/>
 
 
 
     </application>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
 
 </manifest>

@@ -3,18 +3,18 @@ package com.example.riskfree
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val btnReportarAmeaca: Button = findViewById(R.id.btnReportarAmeaca)
-        val btnAddAmeaca:    Button = findViewById(R.id.btnAddAmeaca)
+        // se btnReportarAmeaca for realmente um <Button> no XML, ok
+        val btnReportarAmeaca: Button      = findViewById(R.id.btnReportarAmeaca)
+        // mas se btnAddAmeaca for um <ImageButton>, declare como ImageButton
+        val btnAddAmeaca:     ImageButton = findViewById(R.id.btnAddAmeaca)
 
         val navegarPraReport = {
             startActivity(Intent(this, ReportActivity::class.java))
@@ -23,5 +23,4 @@ class HomeActivity : AppCompatActivity() {
         btnReportarAmeaca.setOnClickListener { navegarPraReport() }
         btnAddAmeaca   .setOnClickListener { navegarPraReport() }
     }
-
 }

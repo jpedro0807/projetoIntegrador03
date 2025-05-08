@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.appcheck.FirebaseAppCheck
+import com.google.firebase.appcheck.debug.DebugAppCheckProviderFactory
 import com.google.firebase.auth.ktx.auth
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        FirebaseAppCheck.getInstance()
+            .installAppCheckProviderFactory(
+                DebugAppCheckProviderFactory.getInstance()
+            )
         // Inicializa o FirebaseAuth
         auth = Firebase.auth
 
