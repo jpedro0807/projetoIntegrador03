@@ -1,6 +1,7 @@
 package com.example.riskfree
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.location.Location
@@ -140,7 +141,22 @@ class ReportActivity : AppCompatActivity() {
             }
     }
 
+    private fun nav(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_home)
 
+        // se btnReportarAmeaca for realmente um <Button> no XML, ok
+
+        val btnHome:     ImageButton = findViewById(R.id.btnHome)
+
+        val navegarPraReport = {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+
+
+        btnHome   .setOnClickListener { navegarPraReport() }
+    }
+}
 
     // Converte a imagem em Base64 e salva tudo no Firestore
     private fun uploadImageAndSave(location: Location) {
