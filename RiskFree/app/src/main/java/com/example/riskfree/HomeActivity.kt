@@ -11,16 +11,22 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        // se btnReportarAmeaca for realmente um <Button> no XML, ok
+
         val btnReportarAmeaca: Button      = findViewById(R.id.btnReportarAmeaca)
-        // mas se btnAddAmeaca for um <ImageButton>, declare como ImageButton
+
         val btnAddAmeaca:     ImageButton = findViewById(R.id.btnAddAmeaca)
+
+        val btnAmeacasReportadas : Button = findViewById(R.id.btnAmeacasReportadas)
 
         val navegarPraReport = {
             startActivity(Intent(this, ReportActivity::class.java))
         }
+        val navegarPraAmeacasReportadas = {
+            startActivity(Intent(this, AmeacasReportadasActivity::class.java))
+        }
 
         btnReportarAmeaca.setOnClickListener { navegarPraReport() }
         btnAddAmeaca   .setOnClickListener { navegarPraReport() }
+        btnAmeacasReportadas.setOnClickListener{navegarPraAmeacasReportadas()}
     }
 }

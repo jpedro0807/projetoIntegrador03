@@ -21,6 +21,7 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.io.ByteArrayOutputStream
 import android.provider.MediaStore
+import android.widget.ImageButton
 
 class ReportActivity : AppCompatActivity() {
 
@@ -111,6 +112,9 @@ class ReportActivity : AppCompatActivity() {
                 requestPermissionLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION)
             }
         }
+
+        // Configura navegação da barra inferior
+        setupNavigationBar()
     }
 
     // Usa getCurrentLocation para forçar leitura de GPS
@@ -141,23 +145,6 @@ class ReportActivity : AppCompatActivity() {
             }
     }
 
-    private fun nav(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
-
-        // se btnReportarAmeaca for realmente um <Button> no XML, ok
-
-        val btnHome:     ImageButton = findViewById(R.id.btnHome)
-
-        val navegarPraReport = {
-            startActivity(Intent(this, HomeActivity::class.java))
-        }
-
-
-        btnHome   .setOnClickListener { navegarPraReport() }
-    }
-}
-
     // Converte a imagem em Base64 e salva tudo no Firestore
     private fun uploadImageAndSave(location: Location) {
         val uri = imageUri
@@ -167,18 +154,12 @@ class ReportActivity : AppCompatActivity() {
         }
 
         try {
-            // 1) Carrega bitmap da URI
             val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, uri)
-
-            // 2) Reduz o tamanho e comprime em JPEG
             val outputStream = ByteArrayOutputStream()
             bitmap.compress(Bitmap.CompressFormat.JPEG, 70, outputStream)
             val imageBytes = outputStream.toByteArray()
-
-            // 3) Converte para Base64
             val imageBase64 = Base64.encodeToString(imageBytes, Base64.NO_WRAP)
 
-            // 4) Prepara dados para o Firestore
             val data      = etData.text.toString().trim()
             val nivel     = etNivel.text.toString().trim()
             val descricao = etDescricao.text.toString().trim()
@@ -196,7 +177,6 @@ class ReportActivity : AppCompatActivity() {
                 "imageBase64" to imageBase64
             )
 
-            // 5) Grava no Firestore
             db.collection("ameaca")
                 .add(ameaca)
                 .addOnSuccessListener {
@@ -211,5 +191,15 @@ class ReportActivity : AppCompatActivity() {
             Log.e(TAG, "Erro ao processar imagem", e)
             Toast.makeText(this, "Erro ao processar imagem: ${e.message}", Toast.LENGTH_LONG).show()
         }
+    }
+
+    // Configura botões da barra inferior
+    private fun setupNavigationBar() {
+        val btnHome: ImageButton = findViewById(R.id.btnHome)
+        btnHome.setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+            finish()
+        }
+
     }
 }
