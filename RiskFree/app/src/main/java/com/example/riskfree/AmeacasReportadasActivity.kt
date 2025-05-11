@@ -31,6 +31,9 @@ class AmeacasReportadasActivity : AppCompatActivity() {
 
         // 3) busca e exibe as ameaças já reportadas
         fetchAmeacas()
+
+        // Configura navegação da barra inferior
+        setupNavigationBar()
     }
 
     private fun fetchAmeacas() {
@@ -66,5 +69,18 @@ class AmeacasReportadasActivity : AppCompatActivity() {
                     Toast.LENGTH_LONG
                 ).show()
             }
+    }
+    private fun setupNavigationBar() {
+        val btnHomeAmeacas: ImageButton = findViewById(R.id.btnHomeAmeacas)
+        btnHomeAmeacas.setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+            finish()
+        }
+        val btnAddAmeaca: ImageButton = findViewById(R.id.btnAddAmeaca)
+        btnAddAmeaca.setOnClickListener {
+            startActivity(Intent(this, ReportActivity::class.java))
+            finish()
+        }
+
     }
 }
