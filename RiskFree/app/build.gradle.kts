@@ -44,9 +44,10 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.android.gms:play-services-location:18.0.0")
-
+    implementation("com.google.android.gms:play-services-base:18.2.0")
     implementation ("com.google.firebase:firebase-storage-ktx")
     implementation ("com.google.firebase:firebase-appcheck-debug:16.2.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
 
 
     implementation(libs.androidx.core.ktx)
